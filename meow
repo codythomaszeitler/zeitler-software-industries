@@ -1,0 +1,9 @@
+            <Text
+            numberOfLines={1}
+              style={{
+                fontStyle: "lucida grande",
+                fontSize: 15,
+              }}
+            >
+              Zeitler Software Industries
+            </Text>
