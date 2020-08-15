@@ -346,9 +346,10 @@ export default function App() {
               style={{
                 fontFamily: FontFamily,
                 fontSize: 18,
+                letterSpacing : 5
               }}
             >
-              What it means for you!
+              WHAT IT MEANS FOR YOU
             </Text>
           </View>
           <View
