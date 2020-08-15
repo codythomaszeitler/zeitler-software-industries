@@ -138,7 +138,7 @@ export default function App() {
               style={{
                 fontFamily: FontFamily,
                 fontSize: 18,
-                letterSpacing : 5,
+                letterSpacing: 5,
               }}
             >
               OUR PRODUCTS
@@ -157,6 +157,101 @@ export default function App() {
               borderBottomWidth: 1,
             }}
           />
+
+          <View
+            style={{
+              flex: 1,
+              flexDirection: "row",
+            }}
+          >
+            <View
+              style={{
+                flex: 1,
+              }}
+            >
+              <View
+                style={{
+                  flex: 0,
+                  flexBasis: 30,
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0,
+                    flexBasis: 10,
+                  }}
+                ></View>
+                <View
+                  style={{
+                    flex: 1,
+                  }}
+                >
+                  <Text
+                    style={{
+                      fontFamily: FontFamily,
+                      marginBottom: 1,
+                      textAlign: "center",
+                    }}
+                  >
+                    GROW AND THRIVE AT WORK
+                  </Text>
+                </View>
+              </View>
+
+                  <Text>This is where the explanation for grow and thrive goes</Text>
+            </View>
+            
+            <View
+              style={{
+                flex: 1,
+              }}
+            >
+              <View
+                style={{
+                  flex: 1,
+                }}
+              >
+                <View
+                  style={{
+                    flex: 0,
+                    flexBasis: 30,
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <View
+                    style={{
+                      flex: 0,
+                      flexBasis: 10,
+                    }}
+                  ></View>
+                  <View
+                    style={{
+                      flex: 1,
+                      justifyContent: "center",
+                      alignSelf: "center",
+                    }}
+                  >
+                    <Text
+                      style={{
+                        fontFamily: FontFamily,
+                        marginBottom: 1,
+                        textAlign: "center",
+                      }}
+                    >
+                      SCEPTRE
+                    </Text>
+                  </View>
+
+                </View>
+                  <Text>This is where the explanation for sceptre goes</Text>
+              </View>
+            </View>
+          </View>
         </View>
         <View
           style={{
@@ -191,7 +286,7 @@ export default function App() {
               style={{
                 fontFamily: FontFamily,
                 fontSize: 18,
-                letterSpacing : 5,
+                letterSpacing: 5,
               }}
             >
               OUR BUSINESS MODEL
@@ -252,12 +347,15 @@ export default function App() {
               fontFamily: FontFamily,
             }}
           >
-            We want to deliver software that delights you. We want to ensure that its what you want, and what your business needs. 
-            In order to ensure this, we will meet every week in order to ensure that we are moving in the right direction.  
-            Our first goal is to create what is known as a minimum viable product, the bare minimum in order to accomplish your buisness process.
-            From there, we will iterate every week and add on what's important to you!
-            This will be charged on an hourly basis.
-          </Text> 
+            We want to deliver software that delights you. We want to ensure
+            that its what you want, and what your business needs. In order to
+            ensure this, we will meet every week in order to ensure that we are
+            moving in the right direction. Our first goal is to create what is
+            known as a minimum viable product, the bare minimum in order to
+            accomplish your buisness process. From there, we will iterate every
+            week and add on what's important to you! This will be charged on an
+            hourly basis.
+          </Text>
 
           <View
             style={{
@@ -346,7 +444,7 @@ export default function App() {
               style={{
                 fontFamily: FontFamily,
                 fontSize: 18,
-                letterSpacing : 5
+                letterSpacing: 5,
               }}
             >
               WHAT IT MEANS FOR YOU
